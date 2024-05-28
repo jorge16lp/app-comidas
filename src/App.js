@@ -276,7 +276,7 @@ const App = () => {
     }
 
     const inicializarComidas = async () => {
-      localStorage.removeItem('comidas');
+      // localStorage.removeItem('comidas');
       let comidas = localStorage.getItem('comidas');
       if (!comidas) {
         comidas = await leerComidasDesdeArchivo();
