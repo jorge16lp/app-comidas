@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/app-comidas/static/css/main.a0d98440.css",
-    "main.js": "/app-comidas/static/js/main.0ab07536.js",
+    "main.js": "/app-comidas/static/js/main.339c67ae.js",
     "index.html": "/app-comidas/index.html",
     "main.a0d98440.css.map": "/app-comidas/static/css/main.a0d98440.css.map",
-    "main.0ab07536.js.map": "/app-comidas/static/js/main.0ab07536.js.map"
+    "main.339c67ae.js.map": "/app-comidas/static/js/main.339c67ae.js.map"
   },
   "entrypoints": [
     "static/css/main.a0d98440.css",
-    "static/js/main.0ab07536.js"
+    "static/js/main.339c67ae.js"
   ]
 }
