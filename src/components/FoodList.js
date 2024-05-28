@@ -8,7 +8,7 @@ const FoodList = ({ foods, onMarkAsCooked, onRename }) => {
             <ul>
                 {foods.map((food, index) => (
                     <FoodItem
-                        key={index}
+                        key={food.name}
                         food={food}
                         onMarkAsCooked={() => onMarkAsCooked(index)}
                         onRename={(newName, newTimesCooked, newLastCooked) => onRename(index, newName, newTimesCooked, newLastCooked)}

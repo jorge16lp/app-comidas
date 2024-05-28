@@ -291,6 +291,7 @@ const App = () => {
 
     const actualizarLocalStorage = (nuevasComidas) => {
       localStorage.setItem('comidas', JSON.stringify(nuevasComidas));
+      imprimirLocalStorage();
     };
 
     const handleReloadFromTextFile = () => {
