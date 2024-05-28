@@ -15,7 +15,7 @@ const App = () => {
 
     const leerComidasDesdeArchivo = async () => {
       try {
-          const response = await fetch('/comidas.txt');
+          const response = await fetch('/public/comidas.txt');
           const text = await response.text();
           const lines = text.split('\n');
           const comidas = lines.map(line => {
